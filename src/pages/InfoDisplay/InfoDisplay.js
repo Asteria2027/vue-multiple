@@ -1,8 +1,8 @@
 import Vue from 'Vue'
-import cell from './cell.vue'
+import InfoDisplay from './InfoDisplay.vue'
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  render: h => h(cell)
+  render: h => h(InfoDisplay)
 })
